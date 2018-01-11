@@ -42,4 +42,4 @@ class Hash():
 		return hash_value%len(self.list)
 
 	def insert(self, key, value):
-		self.list[hashFunct(key)].append(value)
+		self.list[self.hashFunct(key)].append(value)
